@@ -3,34 +3,28 @@
   padding: 10px;
   margin-bottom: 5px;
 }
-
 #adresse {
   background-color: #9a12b3;
   padding: 10px;
   margin-bottom: 5px;
 }
-
 #reglement {
   background: #db0a5b;
   padding: 10px;
 }
-
 ul li {
   list-style-type: decimal;
 }
-
 .titre1 {
   background-color: #2574a9;
   width: 120px;
   margin-left: 15px;
 }
-
 .titre2 {
   background-color: #9a12b3;
   width: 180px;
   margin-left: 15px;
 }
-
 .titre3 {
   background: #db0a5b;
   width: 250px;

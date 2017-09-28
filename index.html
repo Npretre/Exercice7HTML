@@ -1,124 +1,95 @@
 <!DOCTYPE html>
-<html>
+  <html>
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="/home/nicolas/Documents/Prairie/HTML/Excercice7/assets/css/style.css">
-  <title>J'aime les pommes</title>
-</head>
-
-<body>
-  <div class="titre1">
-    Votre identité
-  </div>
-  <div id="identite">
-
-    <form action="/ma-page-de-traitement" method="post">
-      <ul>
-
-        <li>
-
-          <div>
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" placeholder="Nom" />
-          </div>
-        </li>
-        <li>
-          <div>
-            <label for="prenom">Prénom :</label>
-            <input type="text" id="prenom" placeholder="Prénom" />
-          </div>
-        </li>
-        <li>
-          <div>
-            <label for="courriel">Adresse Mail :</label>
-            <input type="email" id="courriel" placeholder="Adresse Mail" />
-          </div>
-        </li>
-      </ul>
-
-    </form>
-
-
-
-  </div>
-  <!-- Fin d'identité  -->
-  <div class="titre2">
-    Adresse de livraison
-  </div>
-  <div id="adresse">
-    <ul>
-
-      <li>
-
-        <div>
-          <label for="adresse">Adresse :</label>
-          <textarea id="adress"></textarea>
-        </div>
-      </li>
-      <li>
-        <div>
-          <label for="postal">Code Postal :</label>
-          <input type="text" id="postal" placeholder="Code Postal" />
-        </div>
-      </li>
-      <li>
-        <div>
-          <label for="ville">Ville :</label>
-          <input type="text" id="ville" placeholder="Ville" />
-        </div>
-      </li>
-    </ul>
-  </div>
-  <!-- Fin d'adresse -->
-  <div class="titre3">
-    Informations de régléments
-  </div>
-  <div id="reglement">
-    <ul>
-
-      <li>
-
-
-        <div>
-
-          Type de carte bancaire :<br />
-
-          <input type="radio" id="visa" /> <label for="VISA">VISA</label><br />
-
-          <input type="radio" id="mastercard" /> <label for="MasterCard">Mastercard</label><br />
-
-        </div>
-
-      </li>
-
-      <li>
-
-        <div>
-          <label for="carte">Numéro de carte :</label>
-          <input type="text" id="carte" placeholder="Numéro de carte" />
-        </div>
-      </li>
-      <li>
-        <div>
-          <label for="code">Code de sécurité :</label>
-          <input type="password" id="code" placeholder="Code de sécurité" />
-        </div>
-      </li>
-      <li>
-        <div>
-          <label for="nom">Nom du Titulaire :</label>
-          <input type="text" id="nom" placeholder="Nom du titulaire" />
-        </div>
-      </li>
-    </ul>
-  </div>
-
-  <!-- FIn de reglement -->
-
-  <div class="button">
-    <button type="submit">J'achète !</button>
-  </div>
-</body>
-
-</html>
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="/home/nicolas/Documents/Prairie/HTML/Excercice7/assets/css/style.css">
+      <title>J'aime les pommes</title>
+    </head>
+    <body>
+      <div class="titre1">Votre identité</div>
+      <div id="identite">
+        <form action="/ma-page-de-traitement" method="post">
+          <ul>
+            <li>
+              <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" placeholder="Nom" />
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" placeholder="Prénom" />
+              </div>
+            </li>
+            <li>
+              <div>
+                <label for="courriel">Adresse Mail :</label>
+                <input type="email" id="courriel" placeholder="Adresse Mail" />
+              </div>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <!-- Fin d'identité  -->
+      <div class="titre2">Adresse de livraison</div>
+      <div id="adresse">
+        <ul>
+          <li>
+            <div>
+              <label for="adresse">Adresse :</label>
+              <textarea id="adress"></textarea>
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="postal">Code Postal :</label>
+              <input type="text" id="postal" placeholder="Code Postal" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="ville">Ville :</label>
+              <input type="text" id="ville" placeholder="Ville" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- Fin d'adresse -->
+      <div class="titre3">Informations de régléments</div>
+      <div id="reglement">
+        <ul>
+          <li>
+            <div>
+              Type de carte bancaire :<br />
+              <input type="radio" id="visa" /> <label for="VISA">VISA</label><br />
+              <input type="radio" id="mastercard" /> <label for="MasterCard">Mastercard</label><br />
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="carte">Numéro de carte :</label>
+              <input type="text" id="carte" placeholder="Numéro de carte" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="code">Code de sécurité :</label>
+              <input type="password" id="code" placeholder="Code de sécurité" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="nom">Nom du Titulaire :</label>
+              <input type="text" id="nom" placeholder="Nom du titulaire" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- Fin de reglement -->
+      <div class="button">
+        <button type="submit">J'achète !</button>
+      </div>
+    </body>
+  </html>
